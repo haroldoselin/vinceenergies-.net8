@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.WebApi", "OrderService\OrderService.WebApi.csproj", "{7724A107-5141-4308-86C9-311DED70723A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{79E96E4E-CBCB-4B46-8EB7-C470F1DE47D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6F851D14-C467-4B3F-8BBC-8B194803394A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{85188FF8-2B04-4B30-8D9C-B7360A110FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Application", "OrderService.Application\OrderService.Application.csproj", "{2EAE364F-34B2-4C70-91F0-40EF39C7232E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Domain", "OrderService.Domain\OrderService.Domain.csproj", "{F2022002-910F-488D-9737-1DCA3F329BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Infrastructure", "OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{70B1157D-4848-41D1-BA34-BEB5A810D31B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B9050D5-09F2-4A0D-BCF6-6A384A21E74D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7724A107-5141-4308-86C9-311DED70723A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7724A107-5141-4308-86C9-311DED70723A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7724A107-5141-4308-86C9-311DED70723A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7724A107-5141-4308-86C9-311DED70723A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAE364F-34B2-4C70-91F0-40EF39C7232E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAE364F-34B2-4C70-91F0-40EF39C7232E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAE364F-34B2-4C70-91F0-40EF39C7232E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAE364F-34B2-4C70-91F0-40EF39C7232E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2022002-910F-488D-9737-1DCA3F329BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2022002-910F-488D-9737-1DCA3F329BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2022002-910F-488D-9737-1DCA3F329BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2022002-910F-488D-9737-1DCA3F329BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B1157D-4848-41D1-BA34-BEB5A810D31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B1157D-4848-41D1-BA34-BEB5A810D31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B1157D-4848-41D1-BA34-BEB5A810D31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B1157D-4848-41D1-BA34-BEB5A810D31B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7724A107-5141-4308-86C9-311DED70723A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {1B9050D5-09F2-4A0D-BCF6-6A384A21E74D}
+		{79E96E4E-CBCB-4B46-8EB7-C470F1DE47D8} = {1B9050D5-09F2-4A0D-BCF6-6A384A21E74D}
+		{6F851D14-C467-4B3F-8BBC-8B194803394A} = {1B9050D5-09F2-4A0D-BCF6-6A384A21E74D}
+		{85188FF8-2B04-4B30-8D9C-B7360A110FD0} = {1B9050D5-09F2-4A0D-BCF6-6A384A21E74D}
+		{2EAE364F-34B2-4C70-91F0-40EF39C7232E} = {79E96E4E-CBCB-4B46-8EB7-C470F1DE47D8}
+		{F2022002-910F-488D-9737-1DCA3F329BD0} = {6F851D14-C467-4B3F-8BBC-8B194803394A}
+		{70B1157D-4848-41D1-BA34-BEB5A810D31B} = {85188FF8-2B04-4B30-8D9C-B7360A110FD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15F82F71-98F9-434A-86EC-40FF7FC7FCF8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://selintec1.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OrderService.Application\\OrderService.Application.csproj
+		SccProjectTopLevelParentUniqueName1 = OrderService.sln
+		SccProjectName1 = OrderService.Application
+		SccLocalPath1 = OrderService.Application
+		SccProjectUniqueName2 = OrderService.Domain\\OrderService.Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = OrderService.sln
+		SccProjectName2 = OrderService.Domain
+		SccLocalPath2 = OrderService.Domain
+		SccProjectUniqueName3 = OrderService.Infrastructure\\OrderService.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName3 = OrderService.sln
+		SccProjectName3 = OrderService.Infrastructure
+		SccLocalPath3 = OrderService.Infrastructure
+		SccProjectUniqueName4 = OrderService\\OrderService.WebApi.csproj
+		SccProjectTopLevelParentUniqueName4 = OrderService.sln
+		SccProjectName4 = OrderService
+		SccLocalPath4 = OrderService
+	EndGlobalSection
+EndGlobal
